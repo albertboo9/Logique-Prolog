@@ -1,4 +1,4 @@
-% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/regles.pl
+% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/Propre/regles.pl
 :- module(regles, [voisin/2]).
 
 % Définition de la règle voisin

@@ -1,6 +1,8 @@
-% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/main.pl
-:- use_module(regles).
-:- use_module(indices).
+% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/Propre/main.pl
+:- module(main, [solution/1, requete/2]).
+
+:- use_module('./regles').  % Chemin relatif vers regles.pl
+:- use_module('./indices'). % Chemin relatif vers indices.pl
 
 % Résolution du problème
 solution(Maisons) :-

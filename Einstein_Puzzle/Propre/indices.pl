@@ -1,9 +1,10 @@
-% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/indices.pl
+% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/Propre/indices.pl
 :- module(indices, [indices/1]).
+:- use_module('./regles').  % Chemin relatif vers regles.pl
 
 % Définition des indices
 indices(Maisons) :-
-    % Indice 1 : L'Anglais vit dans la maison rouge
+    % Indice 1 : LAnglais vit dans la maison rouge
     member(maison(_, rouge, anglais, _, _, _), Maisons),
 
     % Indice 2 : Le Suédois a des chiens
