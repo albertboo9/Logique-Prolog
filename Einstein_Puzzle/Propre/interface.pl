@@ -1,8 +1,8 @@
-% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/interface.pl
+% filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/Propre/interface.pl
 :- use_module(main).
 :- use_module(library(pce)).
 
-% Lancement de l'interface
+% Lancement de linterface
 start :-
     new(Dialog, dialog('Assistant de résolution - Problème d\'Einstein')),
     send(Dialog, append, new(Input, text_item('Question'))),
