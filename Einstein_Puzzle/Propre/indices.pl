@@ -1,5 +1,6 @@
 % filepath: /home/albert/Bureau/Logique-Prolog/Einstein_Puzzle/Propre/indices.pl
 :- module(indices, [indices/1]).
+:- use_module('./regles').  % Chemin relatif vers regles.pl
 
 % Définition des indices
 indices(Maisons) :-
